@@ -102,5 +102,34 @@ int main()
         cout << "Enter your choice: ";
         cin >> choice;
 
+        switch (choice)
+        {
+            case 1:
+                cout << "enter the value to push: ";
+                cin >> value;
+                stack.push(value); // push jumlah yang di beri ke dalam stack
+                break;
 
+            case 2: 
+            stack.pop();
+            break;
+
+            case 3:
+            stack.peek();
+            break;
+
+            case 4:
+                cout << "exitting program." << endl;
+                break;
+
+                default:
+                cout << "Invalid choice. Try again." << endl;
+                break;
+        }
+        cout << endl;
+        
+    }
+
+    return 0;
+}
 

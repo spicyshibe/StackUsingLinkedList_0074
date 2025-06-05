@@ -57,7 +57,8 @@ class Stack
             
         }
 
-       
+        void peek()
+ 
 
 };
 

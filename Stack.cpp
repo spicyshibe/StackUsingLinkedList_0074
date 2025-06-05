@@ -18,3 +18,7 @@ class Node
 
 //class stack
 class Stack
+{
+    private:
+        Node *top; // membuat pointer ke top
+

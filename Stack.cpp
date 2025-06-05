@@ -78,4 +78,12 @@ class Stack
             }//return value of the top node
         }
 
+        bool isEmpty()
+        {
+            return top == NULL;
+
+        }
+
+};
+
 

@@ -34,4 +34,5 @@ class Stack
         {
             Node *newNode = new Node(); // membuat node baru
             newNode->data = value; // memberi value
-       
+            newNode->next = top; // set pointer ke top
+        

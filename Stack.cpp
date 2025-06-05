@@ -9,3 +9,9 @@ class Node
     int data;
     Node *next;
 
+    node()
+    {
+        next = NULL;
+        
+    }
+}

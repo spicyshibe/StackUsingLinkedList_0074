@@ -41,4 +41,11 @@ class Stack
 
         }
 
-}
+        void pop()
+        {
+
+
+        }
+
+};
+

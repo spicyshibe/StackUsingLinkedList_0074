@@ -22,3 +22,9 @@ class Stack
     private:
         Node *top; // membuat pointer ke top
 
+    public:
+        Stack()
+        {
+            top = NULL; // membuat stack top menjadi null
+    
+        }

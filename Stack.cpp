@@ -73,4 +73,9 @@ class Stack
                     current = current->next;
                     
                 }
+                cout << endl;
+
+            }//return value of the top node
+        }
+
 

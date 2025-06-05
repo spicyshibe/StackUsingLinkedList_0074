@@ -86,4 +86,8 @@ class Stack
 
 };
 
+int main()
+{
+  
+}
 

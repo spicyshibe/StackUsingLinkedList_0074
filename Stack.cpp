@@ -9,9 +9,12 @@ class Node
     int data;
     Node *next;
 
-    node()
+    Node()
     {
         next = NULL;
         
     }
-}
+};
+
+//class stack
+class Stack

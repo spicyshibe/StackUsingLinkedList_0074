@@ -32,7 +32,6 @@ class Stack
         // Push operation: Insert an element onto the top of the 
         int push(int value)
         {
-            Node *newNode = new Node() // membuat node baru
-        }
-
-}
+            Node *newNode = new Node(); // membuat node baru
+            newNode->data = value; // memberi value
+       

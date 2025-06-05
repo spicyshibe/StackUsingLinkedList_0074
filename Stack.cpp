@@ -28,3 +28,7 @@ class Stack
             top = NULL; // membuat stack top menjadi null
     
         }
+
+        // Push operation: Insert an element onto the top of the 
+        int push(int value)
+ 

@@ -51,5 +51,13 @@ class Stack
 
             }
 
-   
+            cout << "Popped value: " << temp->data << endl;
+            top = temp->next; //update pointer top
+            delete temp;
+            
+        }
+
+       
+
+};
 
